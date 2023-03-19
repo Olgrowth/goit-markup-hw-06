@@ -28,6 +28,7 @@
     --background-feature-color: #F4F4FD;
     --background-backdrop-color: rgba(46, 47, 66, 0.4);
     --background-modal-color: #FCFCFC;
+    --color-label: #8E8F99;
     --secondary-font: 'Raleway', sans-serif;
     --padding-top: 120px;
     --transition-duration: 250ms;
@@ -663,26 +664,56 @@ margin-bottom: 72px;
     text-align: center;
     padding-top: 52px;
 }
-.modal-form-field {
+.form-group{
+    margin-bottom: 8px;
 }
+
+.modal-form-label {
+     font-size: 12px;
+    line-height: 1.3;
+    color: var(--color-label);
+}
+
 .modal-form-input-desc {
 }
+
+.form-control{
+    position: relative;
+}
+
+.form-icon {
+    position:absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .modal-form-input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 8px 16px;
+    padding-left: 36px;
+    outline: none;
+}
+
+.modal-form-input:focus {
+    border-color: var(--background-button-color);
+}
+.modal-form-input:focus + .form-icon {
+    fill: var(--background-button-color);
 }
 
 .modal-form-input::placeholder {
-}
+} 
 
 .modal-form-comment {
 }
 .modal-form-check {
 }
 .modal-form-check-desc {
+   
 }
 .modal-form-btn {
     font-family: inherit;
