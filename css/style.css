@@ -31,7 +31,6 @@
     --color-label: #8E8F99;
     --color-checkbox: #757575;
     --color-checkbox-icon: #F4F4FD;
-    --secondary-font: font-family: 'Raleway', sans-serif;
     --padding-top: 120px;
     --transition-duration: 250ms;
     --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -75,7 +74,7 @@ a{
     }
 
 .title{
-font-family: var(--secondary-font);
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 36px;    
 line-height: 1.1;
