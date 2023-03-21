@@ -31,7 +31,7 @@
     --color-label: #8E8F99;
     --color-checkbox: #757575;
     --color-checkbox-icon: #F4F4FD;
-    --secondary-font: 'Raleway', sans-serif;
+    --secondary-font: font-family: 'Raleway', sans-serif;
     --padding-top: 120px;
     --transition-duration: 250ms;
     --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -602,7 +602,7 @@ margin-bottom: 72px;
 
 .subscribe-form-text {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     margin-left: 80px;
     padding-bottom: 16px;
