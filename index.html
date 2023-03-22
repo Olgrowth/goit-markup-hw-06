@@ -411,7 +411,8 @@
                      </svg>
                     </a>
               </li>
-              <li class="social-media-item">
+            </ul>
+          </div>
                 <div class="subscribe-group">
                   <form name="subscribe-form">
                       <p class="subscribe-form-text">Subscribe</p>
@@ -430,14 +431,13 @@
                         </span>
                   </form>
                 </div>
-              </li>
-            </ul>
-          </div>
+            
+          
         </div>
         
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn btn" data-modal-close>
           <svg class="modal-btn-close-icon" width="8" height="8">
@@ -446,10 +446,9 @@
         </button>
         <h3 class="modal-title">Leave your contacts and we will call you back</h3>
         <form name="modal-form form">
-          <div class="form-group">
             <label class="modal-form-label">
               <span class="modal-form-input-desc">Name</span>
-                  <div class="form-control">
+                  <span class="form-control">
                     <input 
                       type="text" 
                       name="user_name" 
@@ -460,13 +459,11 @@
                     <svg class="form-icon" width="16" height="16">
                       <use href="./images/symbol-defs.svg#icon-user"></use>
                     </svg>
-                  </div>
+                  </span>
             </label>
-            </div>
-          <div class="form-group">
             <label class="modal-form-label">
               <span class="modal-form-input-desc">Phone</span>
-                  <div class="form-control">
+                  <span class="form-control">
                     <input type="tel" 
                       name="user_phone" 
                       class="modal-form-input"
@@ -476,14 +473,11 @@
                     <svg class="form-icon" width="16" height="16">
                       <use href="./images/symbol-defs.svg#icon-phone"></use>
                     </svg>
-                  </div>
+                  </span>
             </label>
-          </div>
-
-          <div class="form-group">
             <label class="modal-form-label">
               <span class="modal-form-input-desc">Email</span>
-                  <div class="form-control">
+                  <span class="form-control">
                     <input type="email" 
                       name="email" 
                       class="modal-form-input"
@@ -492,10 +486,8 @@
                     <svg class="form-icon" width="16" height="16">
                       <use href="./images/symbol-defs.svg#icon-email"></use>
                     </svg>
-                  </div>
+                  </span>
             </label>
-          </div>
-          <div class="form-group">
             <label class="modal-form-label">
               <span class="modal-form-input-desc">Comment</span>
                     <textarea 
@@ -505,8 +497,6 @@
                       cols="30" 
                       rows="10"></textarea>
             </label>
-          </div>
-
           <input 
           type="checkbox"
           class="modal-form-checkbox visually-hidden" 
@@ -519,7 +509,7 @@
             <svg class="form-checkbox-icon" width="10" height="8">
               <use href="./images/symbol-defs.svg#icon-check"></use>
             </svg>
-            </span>I accept the terms and conditions of the<a href="" class="policy-link">Privacy Policy</a>
+            </span>I accept the terms and conditions of the <a href="" class="policy-link">Privacy Policy</a>
           </label>
 
             <button type="submit" class="modal-form-btn btn">Send</button>
