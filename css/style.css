@@ -31,7 +31,7 @@
     --color-label: #8E8F99;
     --color-checkbox: #757575;
     --color-checkbox-icon: #F4F4FD;
-    --padding-top: padding-top: 120px;
+    --padding-top: padding-top:120px;
     --transition-duration: 250ms;
     --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
