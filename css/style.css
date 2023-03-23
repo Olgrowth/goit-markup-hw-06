@@ -776,11 +776,10 @@ margin-bottom: 72px;
 }
 
 .modal-form-label-checkbox {
-   font-size: 12px;
-   line-height: 1.3;
-   color: var(--color-checkbox);
-   display: flex;
-   align-items: center;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--color-checkbox);
+    display: block;
    transition: transform var(--transition-duration) var(--transition-function);
 }
 
